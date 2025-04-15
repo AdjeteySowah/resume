@@ -52,6 +52,14 @@
          display: inline-block;
       }
 
+      ul {
+         margin-left: 4rem;
+      }
+
+      ul li {
+         margin-bottom: 1rem;
+      }
+
       .heading-and-image {
          display: flex;
          justify-content: space-between;
@@ -94,8 +102,20 @@
       }
 
       .contact a {
-         text-decoration: none;
          color: rgba(0, 0, 0, 0.7);
+      }
+
+      .project p:first-of-type {
+         color: rgb(0, 0, 0);
+         font-weight: 700;
+      }
+
+      .project p:last-of-type {
+         margin-bottom: 1rem;
+      }
+
+      .project a {
+         color: rgb(0, 0, 0);
       }
 
       .experience p:first-of-type {
@@ -110,14 +130,6 @@
       }
 
       .experience p:last-of-type {
-         margin-bottom: 1rem;
-      }
-
-      .experience ul {
-         margin-left: 4rem;
-      }
-
-      .experience ul li {
          margin-bottom: 1rem;
       }
 
@@ -174,6 +186,44 @@
          </p>
       </div>
 
+      <div class="projects-container">
+         <h2>Personal Projects</h2>
+         <div>
+            <div class="project">
+               <p><a href="https://adjeteysowah.github.io/todo-list/" target="_blank">To-Do List Application</a></p>
+               <p>April 2025 – Present (Ongoing)</p>
+               <p>Tools & Technologies: HTML, CSS, JavaScript (ES6), Webpack, Node.js(package installation & management)</p>
+               <ul>
+                  <li>Building a modular to-do app that allows users to manage tasks across projects with prioritization and persistent storage.</li>
+                  <li>Organized the codebase using ES6 modules and configured Webpack for bundling and live reloading.</li>
+                  <li>Deepened experience in scalable JavaScript architecture and modern build tools.</li>
+               </ul>
+            </div>
+
+            <div class="project">
+               <p><a href="https://adjeteysowah.github.io/rock-paper-scissors/" target="_blank">Rock Paper Scissors Game</a></p>
+               <p>October 2024</p>
+               <p>Tools & Technologies: HTML, CSS, JavaScript</p>
+               <ul>
+                  <li>Created a browser-based game with real-time score tracking and dynamic UI using JavaScript and the DOM.</li>
+                  <li>Programmed core game logic with randomized computer selections and user input handling.</li>
+                  <li>Strengthened knowledge of control flow, functions, and DOM interactions.</li>
+               </ul>
+            </div>
+            
+            <div class="project">
+               <p><a href="https://adjeteysowah.github.io/calculator/" target="_blank">Calculator Web App</a></p>
+               <p>December 2024</p>
+               <p>Tools & Technologies: HTML, CSS, JavaScript</p>
+               <ul>
+                  <li>Built a functional calculator that handles addition, subtraction, multiplication, division, and percentage calculations.</li>
+                  <li>Designed an intuitive user interface with keyboard support, input validation, and edge-case handling for reliable performance.</li>
+                  <li>Improved understanding of DOM manipulation and event-driven programming through JavaScript.</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
       <div class="skills">
          <h2>Skills</h2>
          <div>
@@ -184,7 +234,7 @@
              <div>Webpack</div>
              <div>Git & GitHub</div>
          </div>
-     </div>
+      </div>
 
       <div class="experience">
          <h2>Experience</h2>
