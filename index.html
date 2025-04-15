@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Resume</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+   <style>
+      *,
+      *::before,
+      *::after {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font: inherit;
+      }
+
+      html {
+         font-size: 10px;
+         line-height: 1.3;
+      }
+
+      body {
+         -webkit-font-smoothing: antialiased;
+
+         font-family: "Outfit", sans-serif;
+         font-weight: 500;
+         font-size: 1.6rem;
+         color: rgba(0, 0, 0, 0.7);
+         padding: 2rem 20rem;
+      }
+
+      h2 {
+         text-transform: uppercase;
+         font-weight: 700;
+         margin-top: 2rem;
+         margin-bottom: 1rem;
+         padding-bottom: 1rem;
+         border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+         width: fit-content;
+         color: rgb(0, 0, 0);
+      }
+
+      img {
+         max-width: 100%;
+         height: auto;
+         display: inline-block;
+      }
+
+      .heading-and-image {
+         display: flex;
+         justify-content: space-between;
+      }
+
+      .heading h1 {
+         font-size: 4rem;
+         font-weight: 700;
+         color: rgb(0, 0, 0);
+      }
+
+      .subheading {
+         margin-bottom: 1rem;
+      }
+
+      .image img {
+         width: 14rem;
+         height: 14rem;
+         border-radius: 1rem;
+      }
+
+      .contact div,
+      .skills > div div {
+         background-color: rgb(229, 231, 235);
+         display: inline-block;
+         border-radius: 0.5rem;
+         padding: 0.5rem;
+         margin-bottom: 1rem;
+         margin-right: 1rem;
+      }
+
+      .contact img {
+         width: 2rem;
+         height: 2rem;
+         vertical-align: middle;
+      }
+
+      .contact span {
+         margin-left: 0.5rem;
+      }
+
+      .contact a {
+         text-decoration: none;
+         color: rgba(0, 0, 0, 0.7);
+      }
+
+      .experience p:first-of-type {
+         margin-bottom: 1rem;
+         color: rgb(0, 0, 0);
+         font-weight: 700;
+         font-size: 1.4rem;
+      }
+
+      .experience p:first-of-type span {
+         text-transform: uppercase;
+      }
+
+      .experience p:last-of-type {
+         margin-bottom: 1rem;
+      }
+
+      .experience ul {
+         margin-left: 4rem;
+      }
+
+      .experience ul li {
+         margin-bottom: 1rem;
+      }
+
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+         body {
+            padding: 2rem 16rem;
+         }
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+         body {
+            padding: 2rem 10rem;
+         }
+      }
+
+      @media screen and (min-width: 576px) and (max-width: 767px) {
+         body {
+            padding: 2rem 5rem;
+         }
+      }
+
+      @media screen and (max-width: 575px) {
+         body {
+            padding: 2rem 2rem;
+         }
+      }
+
+
+   </style>
+</head>
+
+<body>
+   <div class="container">
+      <div class="heading">
+         <h1 class="heading">Emmanuel Sowah Adjetey</h1>
+         <p class="subheading">Front End Developer (Intern)</p>
+      </div>
+
+      <div class="contact">
+         <div><img src="./images/phone.svg" alt="Phone icon"><span><a href="tel:+233551435350">+233 55 143 5350</a></span></div>
+         <div><img src="./images/email.svg" alt="Email icon"><span><a href="mailto:adjetey.sowah.321@gmail.com">adjetey.sowah.321@gmail.com</a></span></div>
+         <div><img src="./images/location.svg" alt="Location icon"><span>Kasoa</span></div><br>
+         <div><img src="./images/github.svg" alt="GitHub icon"><span><a href="https://github.com/AdjeteySowah" target="_blank">GitHub</a></span></div>
+         <div><img src="./images/linkedin.svg" alt="LinkedIn icon"><span><a href="https://www.linkedin.com/in/emmanuel-adjetey-sowah-1683a3261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></span></div>
+         <div><img src="./images/twitter.svg" alt="Twitter icon"><span><a href="https://twitter.com/AdjeteyESowah" target="_blank">Twitter</a></span></div><br>
+         <div><img src="./images/calendar-star.svg" alt="Calender icon"><span>31/05/2003</span></div>
+         <div><img src="./images/flag.svg" alt="Flag icon"><span>Ghanaian</span></div>
+      </div>
+
+      <div class="summary">
+         <h2>Professional Summary</h2>
+         <p>
+            Aspiring Front-End Developer with a strong foundation in HTML, CSS, JavaScript, Git, GitHub, and Webpack. Actively sharpening skills through The Odin Project’s Full-Stack JavaScript curriculum, with hands-on projects including games (Rock Paper Scissors, Tic Tac Toe), a calculator, a to-do list app, and responsive websites. Backed by real-world communication experience from outreach roles, I’m eager to grow through a Front-End Development Internship, contribute to meaningful projects, and build a career in tech.
+         </p>
+      </div>
+
+      <div class="skills">
+         <h2>Skills</h2>
+         <div>
+             <div>HTML</div>
+             <div>CSS</div>
+             <div>Bootstrap</div>
+             <div>JavaScript</div>
+             <div>Webpack</div>
+             <div>Git & GitHub</div>
+         </div>
+     </div>
+
+      <div class="experience">
+         <h2>Experience</h2>
+         <p><span>field engagement coordinator</span>, Mallam</p>
+         <p>Quantum Talents Consulting (Research and Business Development) <br> August 2023 – September 2024</p>
+         <ul>
+            <li>Delivered prepared proposals and presentations to targeted schools to introduce the company’s ongoing digital education platform.</li>
+            <li>Collaborated with school administrators in discussions to assess interest and gather feedback on proposed educational initiatives.</li>
+            <li>Gathered detailed records of outreach progress and school responses, revisiting contacts as needed.</li>
+            <li>Compiled and submitted monthly field reports, highlighting trends, feedback, and potential partnership opportunities.</li>
+         </ul>
+      </div>
+
+      <div class="education">
+         <h2>Education</h2>
+         <p>Accra Academy(High School), Kaneshie, October 2021</p>
+      </div>
+
+      <div class="certification">
+         <h2>Certifications</h2>
+         <p>Responsive Web Design, freeCodeCamp, 2023</p>
+      </div>
+   </div>
+</body>
+</html>
